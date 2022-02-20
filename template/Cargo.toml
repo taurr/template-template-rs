@@ -1,0 +1,74 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2021"
+resolver = "2"
+authors = ["{{authors}}"]
+# license = "MIT"  # https://spdx.org/licenses/
+# categories = [] # https://crates.io/category_slugs
+# keywords = [] # free text
+
+# https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "~1.0"
+derive_more = "~0.99"
+tracing = "~0.1"
+
+# === Macro helpers ===
+# paste
+# nb
+# syn
+# static_assertions
+
+# === Utilities ===
+# strum
+# typenum
+# itertools
+# nom
+# owning_ref
+
+# === Datatypes ===
+# ndarray
+# heapless
+# smallvec
+# tinyvec
+# time/chrono
+# cow
+# dashmap
+# uuid
+# lexical
+
+# === Static variable handling ===
+# once_cell
+# lazy_static
+
+# === Serialization ===
+# serde = "~1"
+# postcard
+
+# === Async ===
+# async-trait
+# futures
+# tokio
+# rayon
+
+# === Thread communication ===
+# flume
+# crossbeam-channel
+# parking-lot
+
+# === WEB frameworks ===
+# reqwest
+# hyper
+# tonic
+
+[dev-dependencies]
+anyhow = "~1.0"
+tracing-subscriber = {version = "~0.3"}
+# indoc = "~1.0"     # support for indented string litterals
+# tokio = {version = "~1.17", features = ["test-util", "macros"]}
+# tokio-test = "~0.4"
+# loom
+# proptest
+# criterion

@@ -1,0 +1,6 @@
+[template]
+cargo_generate_version = ">=0.13.0"
+exclude = ["*"]
+
+[hooks]
+post = ["rename.rhai"]
